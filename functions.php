@@ -80,3 +80,13 @@ function twentytwelve_entry_meta() {
         $author
     );
 }
+
+// 親要素のnavigation.jsを取り除く
+function clubdam_scripts_styles() {
+    wp_dequeue_script( 'twentytwelve-navigation' );
+}
+function add_wp_enqueue_scripts() {
+    add_action( 'wp_enqueue_scripts', 'clubdam_scripts_styles' );
+}
+add_action( 'after_setup_theme', 'add_wp_enqueue_scripts' );
+
