@@ -584,10 +584,6 @@ a:hover {
 .main-navigation a:focus {
 	color: #21759b;
 }
-.main-navigation ul.nav-menu,
-.main-navigation div.nav-menu > ul {
-	display: none;
-}
 .main-navigation ul.nav-menu.toggled-on,
 .menu-toggle {
 	display: inline-block;

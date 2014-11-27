@@ -82,8 +82,10 @@ function twentytwelve_entry_meta() {
 }
 
 // 親要素のnavigation.jsを取り除く
+// overwrite.cssの読み込み
 function clubdam_scripts_styles() {
     wp_dequeue_script( 'twentytwelve-navigation' );
+    wp_enqueue_style( 'clubdam-overwrite-style', get_stylesheet_directory_uri() . '/css/overwrite.css' );
 }
 function add_wp_enqueue_scripts() {
     add_action( 'wp_enqueue_scripts', 'clubdam_scripts_styles' );
