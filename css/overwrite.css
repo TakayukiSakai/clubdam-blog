@@ -93,7 +93,7 @@
     line-height: 40px;
 }
 
-@media (max-width:660px) {
+@media (max-width:630px) {
     .main-navigation li {
         margin: 0;
         text-align: center;
@@ -104,10 +104,17 @@
     .main-navigation li:nth-child(4) { width: 28.9%; }
 }
 
-@media (max-width:660px) {
+@media (max-width:630px) {
+    .main-navigation a {
+        font-size: 13px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width:470px) {
     .main-navigation a {
         font-size: 12px;
-        line-height: 40px;
+        line-height: 33px;
     }
 }
 
