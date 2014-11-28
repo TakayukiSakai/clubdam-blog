@@ -92,3 +92,9 @@ function add_wp_enqueue_scripts() {
 }
 add_action( 'after_setup_theme', 'add_wp_enqueue_scripts' );
 
+// 文末文字を変更する
+function custom_excerpt_more($more) {
+    return ' ... ';
+}
+add_filter('excerpt_more', 'custom_excerpt_more');
+
