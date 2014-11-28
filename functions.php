@@ -92,6 +92,12 @@ function add_wp_enqueue_scripts() {
 }
 add_action( 'after_setup_theme', 'add_wp_enqueue_scripts' );
 
+// 抜粋の長さを変更する
+function custom_excerpt_length($length) {
+    return 100;
+}
+add_filter('excerpt_length', 'custom_excerpt_length', 999);
+
 // 文末文字を変更する
 function custom_excerpt_more($more) {
     return ' ... ';
