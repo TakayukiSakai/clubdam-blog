@@ -1,4 +1,12 @@
 
+a {
+    color: #41C53D;
+}
+
+a:hover {
+    color: #277625;
+}
+
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
     border-bottom: 1px solid #ededed;
@@ -78,9 +86,9 @@
 .main-navigation .current-menu-ancestor > a,
 .main-navigation .current_page_item > a,
 .main-navigation .current_page_ancestor > a {
-    color: #36BFDF;
+    color: #41C53D;
     font-weight: bold;
-    box-shadow: 0 -6px 0px -3px #36BFDF inset;
+    box-shadow: 0 -6px 0px -3px #41C53D inset;
 }
 
 .main-navigation li {
