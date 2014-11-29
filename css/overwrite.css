@@ -4,13 +4,61 @@ a {
 }
 
 a:hover {
-    color: #277625;
+    color: #50FA4B;
 }
 
-.main-navigation ul.nav-menu,
-.main-navigation div.nav-menu > ul {
+#page {
+    margin: 0;
+    padding: 0;
+    background: #EBF0F4;
+    max-width: 100%;
+}
+
+header.site-header {
+    background: #fff;
+    padding: 1.714285714rem 0 0;
+}
+
+header hgroup {
+    margin: 0 auto;
+    max-width: 68.571428571rem;
+}
+
+#main {
+    margin: 0 auto;
+    max-width: 68.571428571rem;
+}
+
+footer[role="contentinfo"] {
+    margin: 0;
+    background: #464A4D;
+    padding: 1.714285714rem 0 0;
+    max-width: 100%;
+    color: #fff;
+}
+
+footer[role="contentinfo"] .site-info {
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 68.571428571rem;
+}
+
+header hgroup,
+footer[role="contentinfo"] .site-info,
+nav.nav-single {
+    padding-right: 1.714285714rem;
+    padding-left: 1.714285714rem;
+}
+
+.main-navigation > div {
     border-bottom: 1px solid #ededed;
     border-top: 1px solid #ededed;
+}
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+    border: 0;
+    margin: 0 auto;
+    max-width: 68.571428571rem;
     display: inline-block !important;
     text-align: left;
     width: 100%;
@@ -33,7 +81,7 @@ a:hover {
 }
 .main-navigation li a:hover,
 .main-navigation li a:focus {
-    color: #000;
+    color: #50FA4B;
 }
 .main-navigation li {
     margin: 0 40px 0 0;
@@ -102,6 +150,11 @@ a:hover {
 }
 
 @media (max-width:630px) {
+    #secondary {
+        padding-right: 1.714285714rem;
+        padding-left: 1.714285714rem;
+    }
+
     .main-navigation li {
         margin: 0;
         text-align: center;
@@ -133,3 +186,18 @@ a:hover {
     }
 }
 
+.site-content article {
+    padding: 7px;
+    margin-bottom: 1.142857143rem;
+    background: #fff;
+    border: 0;
+}
+
+.site-content article[single] {
+    padding-left: 1.714285714rem;
+    padding-right: 1.714285714rem;
+}
+.site-content article[not-single] {
+    margin-left: 1.714285714rem;
+    margin-right: 1.714285714rem;
+}
