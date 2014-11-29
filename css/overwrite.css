@@ -161,8 +161,8 @@ nav.nav-single {
 .site-content article[not-single] {
     cursor: pointer;
 }
-.site-content article[not-single]:hover,
-.site-content article[not-single]:active {
+.site-content article[not-single]:active,
+.site-content article[not-single]:hover {
     border: solid 1px #41C53D;
 }
 
