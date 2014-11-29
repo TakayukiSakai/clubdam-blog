@@ -150,9 +150,9 @@ nav.nav-single {
 }
 
 .site-content article {
-    margin-left: 1.714285714rem;
+    margin-left: 0.714285714rem;
     margin-right: 0;
-    padding: 6px;
+    padding: 0.5rem 1rem;
     margin-bottom: 1.142857143rem;
     background: #fff;
     border: solid 1px #fff;
@@ -161,14 +161,15 @@ nav.nav-single {
 .site-content article[not-single] {
     cursor: pointer;
 }
-.site-content article[not-single]:hover {
+.site-content article[not-single]:hover,
+.site-content article[not-single]:active {
     border: solid 1px #41C53D;
 }
 
 @media (max-width:660px) {
     #secondary {
-        padding-right: 1.714285714rem;
-        padding-left: 1.714285714rem;
+        padding-right: 0.714285714rem;
+        padding-left: 0.714285714rem;
     }
 
     .main-navigation li {
@@ -185,7 +186,7 @@ nav.nav-single {
         line-height: 36px;
     }
     .site-content article {
-        margin-right: 1.714285714rem;
+        margin-right: 0.714285714rem;
     }
 }
 
