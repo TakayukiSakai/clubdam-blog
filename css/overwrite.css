@@ -200,6 +200,7 @@ nav.nav-single {
 .site-content article[not-single] {
     margin-left: 1.714285714rem;
     margin-right: 1.714285714rem;
+    cursor: pointer;
 }
 .site-content article[not-single]:hover {
     border: solid 1px #41C53D;
