@@ -196,11 +196,17 @@ nav.nav-single {
         line-height: 33px;
     }
 
-    .site-content article[single] {
+    .site-content article {
         padding-left: 1.714285714rem;
         padding-right: 1.714285714rem;
         margin-left: 0;
         margin-right: 0;
+    }
+    .site-content article[not-single] {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: 0.714285714rem;
+        margin-right: 0.714285714rem;
     }
 }
 
