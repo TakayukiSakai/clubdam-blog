@@ -187,10 +187,10 @@ nav.nav-single {
 }
 
 .site-content article {
-    padding: 7px;
+    padding: 6px;
     margin-bottom: 1.142857143rem;
     background: #fff;
-    border: 0;
+    border: solid 1px #fff;
 }
 
 .site-content article[single] {
@@ -201,3 +201,7 @@ nav.nav-single {
     margin-left: 1.714285714rem;
     margin-right: 1.714285714rem;
 }
+.site-content article[not-single]:hover {
+    border: solid 1px #41C53D;
+}
+
